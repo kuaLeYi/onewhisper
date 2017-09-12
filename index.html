@@ -6,7 +6,7 @@
 .A,.B,.C,li ul,span{display:none}
 .a{left:200px;position:relative}
 .btn:hover{background:#3e8e41;transition:all.1s ease}
-.btn{background:#4caf50;border:1px solid #555;border-radius:8px 8px 0 0;color:#fff;cursor:pointer;font-size:100%;margin-bottom:-1px;outline:0}
+.btn{background:#4caf50;border:1px solid #555;border-radius:0 0 8px 8px;color:#fff;cursor:pointer;font-size:100%;margin-bottom:-1px;outline:0}
 .btn{width:200px}
 .cl,u{cursor:pointer}
 .loa{color:#dfd}
@@ -122,7 +122,7 @@ ul{background:#18ae91;list-style:none;margin:0;padding:0}
 <div class='si1'id='my86'><a class='cl'href='javascript:void(0)'onclick='sH(860)'>×</a><a>t28: AREA OF SEC/SEG WITH FMLAE</a></div>
 <div class='si1'id='my87'><a class='cl'href='javascript:void(0)'onclick='sH(870)'>×</a><a>t32: PRODUCT PRINCIPLE</a></div>
 <div class='si1'id='my88'><a class='cl'href='javascript:void(0)'onclick='sH(880)'>×</a><a>t32: FACTORIAL/PERMUTNS/COMBINS</a></div>
-<div><button class='btn a'onclick="$('.B').removeClass('B');$(this).parent().addClass('A')">▶</button>
+<div>
 <ul>
   <li><a onclick='sH(11)'>Arithmetic</a>
     <ul>
@@ -205,7 +205,7 @@ ul{background:#18ae91;list-style:none;margin:0;padding:0}
   </li>
   <li><a class='loa'onclick='sH(91)'>Mensuration &amp; Circ Measure</a></li>
   <li><a class='loa'onclick='sH(101)'>Averages</a></li>
-  <li><a class='loa'onclick='sH(111)'>Sum and Product</a></li></ul></div><div class='B'><button class='btn'onclick="$('.A').removeClass('A');$(this).parent().addClass('B')">◀</button><button class='btn'onclick="$('.C').removeClass('C');$(this).parent().addClass('B')">▶</button><ul>
+  <li><a class='loa'onclick='sH(111)'>Sum and Product</a></li></ul><button class='btn a'onclick="$('.B').removeClass('B');$(this).parent().addClass('A')">▶</button></div><div class='B'><ul>
   <li><a class='loa'onclick='sH(121)'>Sequential Numbers</a></li>
   <li><a class='loa'onclick='sH(131)'>Remainders and Modulo</a></li>
   <li><a onclick='sH(141)'>Angles and Basic ● Geom</a>
@@ -221,7 +221,7 @@ ul{background:#18ae91;list-style:none;margin:0;padding:0}
   <li><a class='loa'onclick='sH(191)'>Sets</a></li>
   <li><a class='loa'onclick='sH(201)'>Inequalities</a></li>
   <li><a class='loa'onclick='sH(211)'>Coordinate Geometry</a></li>
-  <li><a class='loa'onclick='sH(221)'>Direction and Bearing</a></li></ul></div><div class='C'><button class='btn'onclick="$('.B').removeClass('B');$(this).parent().addClass('C')">◀</button><ul>
+  <li><a class='loa'onclick='sH(221)'>Direction and Bearing</a></li></ul><button class='btn'onclick="$('.A').removeClass('A');$(this).parent().addClass('B')">◀</button><button class='btn'onclick="$('.C').removeClass('C');$(this).parent().addClass('B')">▶</button></div><div class='C'><ul>
   <li><a class='loa'onclick='sH(231)'>Congruent and Similar</a></li>
   <li><a class='loa'onclick='sH(241)'>Graphs, (Graphs') Equations</a></li>
   <li><a onclick='sH(251)'>Algebra</a>
@@ -266,7 +266,7 @@ ul{background:#18ae91;list-style:none;margin:0;padding:0}
     </ul>
   </li>
   <li><a class='loa'onclick='sH(331)'>Probability</a></li>
-</ul></div></div>
+</ul><button class='btn'onclick="$('.B').removeClass('B');$(this).parent().addClass('C')">◀</button></div></div>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://www.shodor.org/~amalani/graph.js/fraction/releases/fraction-0.2.js'></script>
 <script type='text/javascript'src='index.js'></script>
