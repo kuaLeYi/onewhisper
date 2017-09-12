@@ -19,7 +19,7 @@ A static web-page created with JavaScript to save a _.tex_ file, suitable for us
 >skills.
 
 An easy way to deal with this comes to mind: automation. This is why today, trillions of sets of random mathematical challenges are available at a touch in [Onewhisper](https://kualeyi.github.io/onewhisper)'s undemanding-to-use interface.
-## Recommendation
-If you are a question-setter, do make edits to any questions and solutions generated in order for them to suit your educational intention.
+## Tip
+If you are a question-setter, make edits to any questions and solutions generated in order for them to suit your educational intention as either or both may be found very ‘plain’.
 ## Note
 Cᴜʀʀᴇɴᴛʟʏ, ᴛʜᴇ TᴇX ᴄᴏɴᴛᴇɴᴛ ᴛʜᴀᴛ [Oɴᴇᴡʜɪꜱᴘᴇʀ](https://kualeyi.github.io/onewhisper) ᴘʀᴏᴅᴜᴄᴇꜱ ᴡɪʟʟ ʙᴇ ɢᴜᴀʀᴀɴᴛᴇᴇᴅ ᴏɴʟʏ 99% ꜰʀᴇᴇ ᴏꜰ ꜰᴏʀᴍᴀᴛᴛɪɴɢ ᴇʀʀᴏʀꜱ ʙʏ @ᴋᴜᴀLᴇYɪ, ᴛʜᴇ ᴀᴜᴛʜᴏʀ.
