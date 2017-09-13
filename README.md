@@ -11,7 +11,7 @@ A static web-page created with JavaScript to save a _.tex_ file, suitable for us
 [Onewhisper](https://kualeyi.github.io/onewhisper) may not work on your mobile device.
 ## Simple
 >Mathematics is a methodical application of quantity, structure,
->
+
 >space and change. Ergo, the subject can make its students
 >
 >methodical or systematic. Mathematical education also brings order
