@@ -11,17 +11,11 @@ A static web-page created with JavaScript to save a _.tex_ file, suitable for us
 [Onewhisper](https://kualeyi.github.io/onewhisper) may not work on your mobile device.
 ## Simple
 >Mathematics is a methodical application of quantity, structure,
-
 >space and change. Ergo, the subject can make its students
->
 >methodical or systematic. Mathematical education also brings order
->
 >to one’s way of life and promotes qualities such as the power of
->
 >reasoning, creativity, abstract or spatial thinking, critical
->
 >thinking, problem-solving ability and even effective communication
->
 >skills.
 
 An easy way to deal with this comes to mind: automation. This is why today, trillions of sets of random mathematical challenges are available at a touch in [Onewhisper](https://kualeyi.github.io/onewhisper)'s undemanding-to-use interface.
