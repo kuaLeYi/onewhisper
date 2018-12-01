@@ -22,4 +22,4 @@ An easy way to deal with this comes to mind: automation. This is why today, tril
 ## Tip
 If you are a question-setter, make edits to any questions and solutions generated in order for them to suit your educational intention as either or both may be found very ‘plain’.
 ## Note
-Cᴜʀʀᴇɴᴛʟʏ, ᴛʜᴇ TᴇX ᴄᴏɴᴛᴇɴᴛ ᴛʜᴀᴛ [Oɴᴇᴡʜɪꜱᴘᴇʀ](https://kualeyi.github.io/onewhisper) ᴘʀᴏᴅᴜᴄᴇꜱ ᴡɪʟʟ ʙᴇ ɢᴜᴀʀᴀɴᴛᴇᴇᴅ ᴏɴʟʏ ~99% ꜰʀᴇᴇ ᴏꜰ ꜰᴏʀᴍᴀᴛᴛɪɴɢ ᴇʀʀᴏʀꜱ ʙʏ @ᴋᴜᴀLᴇYɪ, ᴛʜᴇ ᴀᴜᴛʜᴏʀ.
+Currently, the TeX Content that [Onewhisper](https://kualeyi.github.io/onewhisper) produces will be guaranteed only ~99% free of formatting errors by @kuaLeYi, the author.
