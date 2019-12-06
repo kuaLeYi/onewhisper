@@ -1,6 +1,7 @@
 var down=d=>{var f=new Blob([d],{type:'text/plain'}),y=document,z=window.navigator;if(z.msSaveOrOpenBlob)z.msSaveOrOpenBlob(f,'q.tex');else{var a=y.createElement`a`,u=URL.createObjectURL(f);a.href=u;a.download='q.tex';y.body.appendChild(a);a.click();setTimeout(`y.body.removeChild(a);window.URL.revokeObjectURL(u)`,0)}}
 
 var a={valueOf:Math.random},gF=x=>{var f=[],q=0,i=1;for(;i<=x;i++){q=x/i;if(q===~~q){f.push(i)}}return f},sA=z=>{for(var x=z.length-1;x>0;x--){var y=~~(a*(x+1));[z[x],z[y]]=[z[y],z[x]]}return z}
+
 var a0=par=>{var alle='',ipa=0;for(;ipa<par;ipa++){var j=0,c='',d=0;for(;j<~~(a*6)+2;j++){var b=a,e=a*2|0,f=['+','-'][e]+(b<.4?~~(a*9000)+1000:b<.9?~~(a*900)+100:~~(a*99)+1);if(a<.8)c+=f,d-=-f;else c+='-('+(f>0?-f:f)+')',d-=f>0?-f:f}c=/^\+/.test(c)?c.slice(1):c;alle+=('Qn: \\textbf{Find $'+c+'$.}\\\\\\\\Sol.\\\\$'+c+' = '+d+'$').replace('','')+'\\\\\\\\\\\\'}down(alle.slice(0,alle.length-6))}
 
 var a1=par=>{var alle='',ipa=0;for(;ipa<par;ipa++){var g=1000,h=1000;if(a<.5){while(g*h>99999)g=~~(a*9900)+100,h=~~(a*9900)+100;alle+='\\\\\\\\\\\\'+('Qn: \\textbf{Find $'+g+'\\times '+h+'$.}\\\\\\\\Sol.\\\\$'+g+'\\times '+h+' = '+g*h+'$').replace('','')}else{while(g*h>9999||h%10<1)g=~~(a*198)+2,h=~~(a*99)+1;alle+='\\\\\\\\\\\\'+('Qn: \\textbf{Find $'+g*h+'\\div '+h+'$.}\\\\\\\\Sol.\\\\$'+g*h+'\\div '+h+' = '+g+'$').replace('','')}}down(alle.slice(6))}
