@@ -8,7 +8,7 @@ firebase.firestore().collection(CryptoJS.AES.decrypt('U2FsdGVkX1+u/DFOXhWEibvN0H
     return doc.data();
   });
 });
-function f(x,y){
+function f(x, y) {
   var hv = a => x.every(v => a[2].includes(v)), nHv = a => !y.some(v => a[2].includes(v));
   if (x || y) {
     if (x) x = x.split` `;
