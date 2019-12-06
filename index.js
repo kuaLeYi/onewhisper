@@ -1,4 +1,4 @@
-var big = [], listItem = (a,b,c) =>  `<li><a href='${a}'target='_blank'>${b}</a> ${c.map(f => `<u>${f}</u>`).join` `}</li>`;
+var big = [], listItem = (a,b,c) => `<li><a href='${a}'target='_blank'>${b}</a> ${c.map(f => `<u>${f}</u>`).join` `}</li>`;
 firebase.initializeApp({projectId:'frustratiles'});
 firebase.firestore().collection('43604341592219').get().then(snap => {
   snap.docs.map(doc => {
