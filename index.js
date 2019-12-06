@@ -1,9 +1,9 @@
-var big = [], listItem = (a,b,c) => `<li><a href='${a}'target='_blank'>${b}</a> ${c.map(f => `<u>${f}</u>`).join` `}</li>`;
-firebase.initializeApp({projectId:'frustratiles'});
-firebase.firestore().collection('43604341592219').get().then(snap => {
+var pw = prompt('Password:'), big = [], listItem = (a,b,c) => `<li><a href='${a}'target='_blank'>${b}</a> ${c.map(f => `<u>${f}</u>`).join` `}</li>`;
+firebase.initializeApp({projectId: CryptoJS.AES.decrypt('U2FsdGVkX1+Us1ssY01EMkiYG/320KLG3IOWO4Iva74=', pw).toString(CryptoJS.enc.Utf8)});
+firebase.firestore().collection(CryptoJS.AES.decrypt('U2FsdGVkX1+u/DFOXhWEibvN0HlP/IX0/qBJT5yGqhBG7NL0Q9sfj3lffFNkqD1M', pw).toString(CryptoJS.enc.Utf8)).get().then(snap => {
   snap.docs.map(doc => {
     var o = doc.data();
-    big.push([o.id = doc.id, o.link, o.tags.sort()]);
+    big.push([o.id = doc.id, o.link, o.tags/*.sort()*/]);
     $('#results').append(listItem(o.link, o.id, o.tags));
     return doc.data();
   });
