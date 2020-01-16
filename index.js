@@ -4,7 +4,7 @@ firebase.firestore().collection(CryptoJS.AES.decrypt('U2FsdGVkX1+u/DFOXhWEibvN0H
   snap.docs.map(doc => {
     var o = doc.data();
     big.push([o.id = doc.id, o.link, o.tags/*.sort()*/]);
-    if (!num == btoa('dm93b2ZibGNha3F1YXJ0emp1ZGdlbXlzcGhpeG4=') && o.tags.indexOf('entertain') < 0 && o.tags.indexOf('school-nat-phil') < 0 && o.tags.indexOf('write-fiction') < 0)
+    if (num != btoa('dm93b2ZibGNha3F1YXJ0emp1ZGdlbXlzcGhpeG4=') && o.tags.indexOf('entertain') < 0 && o.tags.indexOf('school-nat-phil') < 0 && o.tags.indexOf('write-fiction') < 0)
       $('#results').append(listItem(o.link, o.id, o.tags));
     return doc.data();
   });
