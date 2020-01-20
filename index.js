@@ -3,7 +3,7 @@ firebase.initializeApp({projectId: CryptoJS.AES.decrypt('U2FsdGVkX1+Us1ssY01EMki
 firebase.firestore().collection(CryptoJS.AES.decrypt('U2FsdGVkX1+u/DFOXhWEibvN0HlP/IX0/qBJT5yGqhBG7NL0Q9sfj3lffFNkqD1M', pw).toString(CryptoJS.enc.Utf8)).get().then(snap => {
   snap.docs.map(doc => {
     var o = doc.data();
-    if (num == btoa('dm93b2ZibGNha3F1YXJ0emp1ZGdlbXlzcGhpeG4=') || (o.tags.indexOf('entertain') < 0 && o.tags.indexOf('school-nat-phil') < 0 && o.tags.indexOf('write-fiction') < 0)) {
+    if (num == atob('dm93b2ZibGNha3F1YXJ0emp1ZGdlbXlzcGhpeG4=') || (o.tags.indexOf('entertain') < 0 && o.tags.indexOf('school-nat-phil') < 0 && o.tags.indexOf('write-fiction') < 0)) {
       big.push([o.id = doc.id, o.link, o.tags/*.sort()*/]);
       $('#results').append(listItem(o.link, o.id, o.tags));
     }
